@@ -1,0 +1,73 @@
+.headerTextContainer {
+    font-family: monaco;
+}
+
+.profileImage{
+    border-radius: 100px;
+   
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+}
+
+body{
+    align-self: center;
+    background-color: #F9F8F8;
+}
+
+.topicContainers{
+    flex-direction: column;
+    background-color: #F4DCA4;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    opacity: 1;
+    
+}
+
+
+
+#imageContainer{
+    width: auto;
+    text-align: center;
+    
+
+}
+
+#headerTextContainer{
+    align-content: space-around;
+    font-family: sans-serif;
+    align-items: center;
+
+    text-align: center;
+   float: right;
+}
+
+#header{
+    display: flex;
+    
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.topicsHeaders{
+   display: flex;
+   align-items: center;
+   text-align: center;
+    color:black;
+    font-family: sans-serif;
+}
+
+.topicContent{
+    color: black;
+    opacity: 1;
+    font-family: sans-serif;
+}
+
